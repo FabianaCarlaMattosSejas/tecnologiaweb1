@@ -8,13 +8,21 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#400850;
-    
+    color:#d787ec;
+    background-color: azure;
+    left: 200px;   
+}
+img{
+    border-color: #d49ce4;
+    border-width: 10px;
+    border-style: solid ;
+    border-radius: 100px;
+    text-align: center;
 }
 
 h1 {
     font-size: 2rem;
-    color:#15dfe6;
+    color:#15dfe6; 
 }
 
 h2 {
@@ -25,7 +33,7 @@ h2 {
 
 header, main, footer {
     margin: 1.25rem auto;
-    padding: .5rem;
+    padding: 1.25rem;
     max-width: 600px;
 }
 
@@ -33,6 +41,9 @@ header, footer, footer a {
     text-align: center;
     background-color:#0c010f;
     color: rgb(45, 217, 230);
+    border-color: #6d2c7e;
+    border-width: 10px;
+    border-style: solid ;
 }
 
 header img {
