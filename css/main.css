@@ -44,7 +44,10 @@ header, footer, footer a {
     border-color: #6d2c7e;
     border-width: 10px;
     border-style: solid ;
+    text-decoration: overline rgb(224, 17, 207)
+    dashed ;
 }
+
 
 header img {
     width: 150px;
