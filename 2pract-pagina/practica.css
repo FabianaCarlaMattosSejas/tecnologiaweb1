@@ -1,0 +1,101 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000 url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcteWzNWUiKxGXMj93vNihsbEMotNFx-JWg&usqp=CAU);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    margin: 0px;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    text-align: center;
+    
+}
+header {
+    width: 100%;
+    padding: 30px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+}
+header .menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+header .menu a:hover{
+    background: #fff;
+    color: red;
+}
+.main{
+    background: #fff;
+    padding: 30px;
+    width: 70%;
+    
+}
+.main article .thumb{
+    margin-bottom: 20px;}
+.main article .thumb img{
+    vertical-align: top;
+    width: 100%;
+}
+.main article h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 32px;
+}
+.main article p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+aside{
+    width: 20%;
+    background: rgb(41, 30, 30);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+aside .ad{
+    background: red;
+    text-align: center;
+    padding: 50px 0;
+    height: 120px;
+
+}
+footer{
+    margin-top: 20px;
+    background: rgba(red, green, blue, alpha);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:800px){
+    .main{
+        width: 100%;
+        
+    }
+    aside{
+        width: 100%;
+        flex-direction: row;
+ 
+    }
+    aside .ad{
+        width: 50%;
+    }
+}
