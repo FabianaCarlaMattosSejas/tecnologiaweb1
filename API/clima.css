@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 10PX;
+    margin: 0PX 350px 0px 350px;
+}
+header{
+    border: 5px red solid;
+    text-align: center;
+    background: #7c7c7c2b ;
+    font-size: 105%;
+    padding: 0.4cm 1cm;
+    color: white;
+}
+h2{
+
+    background: black;
+}
+h1{
+    color: red;
+    font-size: 50px;
+
+}
+#tem-act{
+    color: red;
+    font-size: 50px;
+}
+.tiempored .tiempo {
+    
+    border: 5px wheat solid;
+    text-align: center;
+    border-radius: 100px;
+    width: 300px;
+    background: url(https://i.gifer.com/9ZQ9.gif);
+}
+.tiempored .tiempo img{
+    width: 90px;
+    height: 60px;
+    padding: 10px 0px 0px 0px;
+    background: #7c7c7c2b;
+}
+.tiempored .tiempo p{
+    color:white;
+    background: #7c7c7c2b;
+    
+}

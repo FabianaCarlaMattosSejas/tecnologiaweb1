@@ -10,34 +10,26 @@
 <body>
     <div class="contenedor">
 
-        <form action="">
-            <h2>Factorial</h2>
-
-            <input id="numero1" type="text">
-
-
-            
-            <p>=</p>
-
-            <input  id="resultado" type="text" readonly>
-
-            <input type="button" class="btn" onclick="factorial()" value="Resultado">
-
-        </form>
+        <Label> número1: </Label><input type="text" id="nro1">
+        <br><br>
+        <Label>número2: </Label><input type="text" id="nro2">
+        <br><br>
+        <button class="btn" onclick="mostrarParImpar()">resultado</button>
+        <br><br>
+        <p>= <span id="resp"></span></p>
 
     </div>
     <script>
-        function factorial(numero1)
-        {
-            var num1=parseFloat(document.getElementById('numero1').value);
-          
-            var total=1
-            for (var i=num1; i>0; i--)
-            {
-                total*=i;
-                
+       var cadenaImpar = "";
+        function mostrarParImpar() {
+            var nro1 = parseFloat(document.getElementById("nro1").value);
+            var nro2 = parseFloat(document.getElementById("nro2").value);
+            for (let i = nro1; i <= nro2; i++) {
+                if (i % 2 != 0) {
+                    cadenaImpar += i + " ";
+                }
             }
-            document.getElementById('resultado').value=total;
+            document.getElementById("resp").innerHTML = cadenaImpar;
         }
          
     </script>
